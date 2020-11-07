@@ -61,7 +61,7 @@ Nesta etapa verifique se sua aplicação segue o conceito de deployment Multi-AZ
 
 Automatize o processo de deployment do seu ambiente utilizando as ferramentas existentes no ecossistema da AWS (AWS CloudFormation, awscli).
 
-## Apresentação
+## Task 4: Apresentação
 
 Ao final do projeto, seu grupo precisará realizar uma apresentação com 3 slides contendo:
 
