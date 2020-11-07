@@ -1,6 +1,8 @@
-# Aplicação Web
+# Projeto This is my Architecture
 
-## Como realizar manualmente o build e deployment deste projeto
+## Task 1: Deploy da Aplicação Web
+
+### Como realizar manualmente o build e deployment deste projeto
 
 Inicie uma instância EC2 utilizando o `Amazon Linux 2`;
 
@@ -32,12 +34,33 @@ Acesse a sua aplicação através da url:
 
     <Hostname de sua instancia EC2>
 
+### Realizei o deployment. E agora?
 
-## Realizei o deployment. E agora?
+Pode ser que você não tenha conseguido acessar sua aplicação devidamente. Não se preocupe. Isso faz parte do exercício. Agora, seu objetivo é corrigir eventuais problemas e conseguir acessar sua aplicação.
 
-Pode ser que você não tenha conseguido acessar sua aplicação devidamente. Não se preocupe. Isso faz parte do exercício. Agora, seu objetivo é corrigir eventuais problemas, conseguir acessar sua aplicação e automatizar este processo de deployment utilizando as ferramentas existentes no ecossistema da AWS (AWS CloudFormation, awscli).
+## Task 2: Alta Disponibilidade e Escalabilidade
 
-No final desta sprint, seu grupo precisará realizar uma apresentação com 3 slides contendo:
+Nesta etapa defina métricas escalabilidade e deployment Multi-AZ junto ao seu Cohort Leader.
+
+Exemplo: *mínimo de 1 instância em 2 AZs distintas, que escale horizontalmente quando a métrica **CPUUtilization** for maior que 40%.*
+
+### Escalabilidade
+
+Lembrando do conceito de escalabilidade horizontal, aplique esse conceito na sua aplicação utilizando as ferramentas existentes no ecossistema da AWS (Elastic Load Balancing, AWS Auto Scaling). Defina métricas e faça testes de carga verificando que sua aplicacão escala.
+
+Ferramentas de teste de carga: Blazemeter, Jmeter, Locust, Loader.io, Bees With Machine Gun.
+
+### Alta Disponibilidade
+
+Nesta etapa verifique se sua aplicação segue o conceito de deployment Multi-AZ. 
+
+## Task 3: Deploy Automatizado
+
+Automatize o processo de deployment do seu ambiente utilizando as ferramentas existentes no ecossistema da AWS (AWS CloudFormation, awscli).
+
+## Apresentação
+
+Ao final do projeto, seu grupo precisará realizar uma apresentação com 3 slides contendo:
 
 * Desenho da arquitetura;
 * O que deu certo;
