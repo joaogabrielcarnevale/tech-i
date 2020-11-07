@@ -1,5 +1,6 @@
 # Projeto This is my Architecture
 
+
 ## Task 1: Deploy da Aplicação Web
 
 ### Como realizar manualmente o build e deployment deste projeto
@@ -38,6 +39,7 @@ Acesse a sua aplicação através da url:
 
 Pode ser que você não tenha conseguido acessar sua aplicação devidamente. Não se preocupe. Isso faz parte do exercício. Agora, seu objetivo é corrigir eventuais problemas e conseguir acessar sua aplicação.
 
+
 ## Task 2: Alta Disponibilidade e Escalabilidade
 
 Nesta etapa defina métricas escalabilidade e deployment Multi-AZ junto ao seu Cohort Leader.
@@ -52,7 +54,8 @@ Ferramentas de teste de carga: Blazemeter, Jmeter, Locust, Loader.io, Bees With 
 
 ### Alta Disponibilidade
 
-Nesta etapa verifique se sua aplicação segue o conceito de deployment Multi-AZ. 
+Nesta etapa verifique se sua aplicação segue o conceito de deployment Multi-AZ.
+
 
 ## Task 3: Deploy Automatizado
 
