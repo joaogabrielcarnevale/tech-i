@@ -24,7 +24,7 @@ Instale o `nginx`:
 
 Copie o diretório com sua aplicação para o diretório `html` do nginx utilizando:
 
-    sudo cp -rf ~/tech-u /usr/share/nginx/html/
+    sudo cp -rf ~/tech-i /usr/share/nginx/html/
 
 Inicie o nginx:
 
