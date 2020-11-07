@@ -2,35 +2,19 @@
 
 ## Como realizar manualmente o build e deployment deste projeto
 
-Inicie uma instância EC2 utilizando o `Amazon Linux`;
+Inicie uma instância EC2 utilizando o `Amazon Linux 2`;
 
 Em sua instância, instale o `git` utilizando o seguinte comando:
 
     sudo yum -y install git
 
-Siga as instruções do link a seguir para instalar o node em sua instancia:
-
-    https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/setting-up-node-on-ec2-instance.html
-
 Realize o clone deste repositório através do seguinte comando:
 
-    git clone https://github.com/bemer/tech-u.git
+    git clone https://github.com/joaogabrielcarnevale/tech-i.git
 
-Acesse o diretório `tech-u` recém criado através do comando:
+Acesse o diretório `tech-i` recém criado através do comando:
 
-    cd tech-u
-
-Dentro do diretório tech-u execute o seguinte comando para instalar o módulos necessários para a aplicação node:
-
-    npm install
-
-Agora, instale o `gulp` através do seguinte comando:
-
-    npm install --global gulp
-
-Execute o gulp:
-
-    gulp
+    cd tech-i
 
 Instale o `nginx`:
 
