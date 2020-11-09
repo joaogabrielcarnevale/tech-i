@@ -22,6 +22,10 @@ Acesse o diretório `tech-i` recém criado através do comando:
 Instale o `nginx`:
 
     sudo amazon-linux-extras install -y nginx1.12
+    
+Volte ao diretório
+
+    cd
 
 Copie o diretório com sua aplicação para o diretório `html` do nginx utilizando:
 
