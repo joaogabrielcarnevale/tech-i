@@ -1,7 +1,7 @@
 # Projeto This is my Architecture
 
 
-## Task 1: Deploy da Aplicação Web
+## Desafio 1: Deploy da Aplicação Web
 
 ### Como realizar manualmente o build e deployment deste projeto
 
@@ -40,7 +40,7 @@ Acesse a sua aplicação através da url:
 Pode ser que você não tenha conseguido acessar sua aplicação devidamente. Não se preocupe. Isso faz parte do exercício. Agora, seu objetivo é corrigir eventuais problemas e conseguir acessar sua aplicação.
 
 
-## Task 2: Alta Disponibilidade e Escalabilidade
+## Desafio 2: Alta Disponibilidade e Escalabilidade
 
 Nesta etapa defina métricas escalabilidade e deployment Multi-AZ junto ao seu Cohort Leader.
 
@@ -57,11 +57,11 @@ Ferramentas de teste de carga: Blazemeter, Jmeter, Locust, Loader.io, Bees With 
 Nesta etapa verifique se sua aplicação segue o conceito de deployment Multi-AZ.
 
 
-## Task 3: Deploy Automatizado
+## Desafio 3: Deploy Automatizado
 
 Automatize o processo de deployment do seu ambiente utilizando as ferramentas existentes no ecossistema da AWS (AWS CloudFormation, awscli).
 
-## Task 4: Apresentação
+## Desafio 4: Apresentação
 
 Ao final do projeto, seu grupo precisará realizar uma apresentação com 3 slides contendo:
 
