@@ -23,7 +23,7 @@ Instale o `nginx`:
 
     sudo amazon-linux-extras install -y nginx1.12
     
-Volte ao diretório
+Volte ao diretório principal
 
     cd
 
