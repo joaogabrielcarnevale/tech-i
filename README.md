@@ -1,4 +1,4 @@
-# Projeto: Architecture Challenge
+# Architecture Challenge
 
 
 ## Desafio 1: Deploy da Aplicação Web
@@ -52,13 +52,13 @@ Exemplo: *mínimo de 1 instância em 2 AZs distintas, que escale horizontalmente
 
 ### Escalabilidade
 
-Lembrando do conceito de escalabilidade horizontal, aplique esse conceito na sua aplicação utilizando as ferramentas existentes no ecossistema da AWS (Elastic Load Balancing, AWS Auto Scaling). Defina métricas e faça testes de carga verificando que sua aplicacão escala.
+Lembrando do conceito de escalabilidade horizontal, aplique esse conceito na sua aplicação utilizando serviços existentes no ecossistema da AWS (Elastic Load Balancing, AWS Auto Scaling...). Defina métricas e faça testes de carga verificando que sua aplicacão escala.
 
 Ferramentas de teste de carga: Blazemeter, Jmeter, Locust, Loader.io, Bees With Machine Gun.
 
 ### Alta Disponibilidade
 
-Nesta etapa verifique se sua aplicação segue o conceito de deployment Multi-AZ.
+Para garantir alta disponibilidade e tolerancia a falaha, nesta etapa garanta que sua aplicação segue o conceito de deployment Multi-AZ.
 
 
 ## Desafio 3: Deploy Automatizado
